@@ -11,11 +11,11 @@ from pubnub.enums import PNReconnectionPolicy
 from pubnub.pnconfiguration import PNConfiguration
 from pubnub.pubnub import PubNub
 
-debug_subscribe_key = "sub-c-3c3c9c40-e9dd-11e6-b325-02ee2ddab7fe";
-debug_publish_key = "pub-c-cdafa971-87da-4fab-b15b-fc71f59b763b"
+release_subscribe_key = "sub-c-3c3c9c40-e9dd-11e6-b325-02ee2ddab7fe";
+release_publish_key = "pub-c-cdafa971-87da-4fab-b15b-fc71f59b763b"
 
-release_subscribe_key = "sub-c-06924c92-e9de-11e6-b325-02ee2ddab7fe"
-release_publish_key = "pub-c-4944c218-4f3e-43bf-a585-c6e8bf3b7588"
+debug_subscribe_key = "sub-c-06924c92-e9de-11e6-b325-02ee2ddab7fe"
+debug_publish_key = "pub-c-4944c218-4f3e-43bf-a585-c6e8bf3b7588"
 
 control_channel = "vfa_remote_mode_control_channel_"
 data_channel = "vfa_remote_mode_data_channel_"
